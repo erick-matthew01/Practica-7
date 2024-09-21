@@ -1,0 +1,91 @@
+*{
+    margin-top: 0;
+    padding: 0;
+}
+body{
+    background-color: #f1f5f4;
+}
+.areaPrincipal{
+    background-image: url(../img/fondo.taco.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    opacity: 0.9;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -moz-background-size:100% 100%;
+    background-size:100% 100%;
+
+}
+
+#encabezado{
+    background: #0421a0;
+    height: 240px;
+    text-align: center;
+    background-image: url(../img/Logo.jpg);
+    background-repeat: no-repeat;
+    background-size: 180px 180px;
+}
+
+.piePagina{
+    width: 100%;
+    height: 50px;
+    background: #e90c0c;
+    color: white;
+    bottom: 0;
+    position-anchor: 0;
+    left:0;
+}
+#menu{
+    height: 40px;
+    position: relative;
+    top: 200px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0b7792;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: rgb(228, 14, 14);
+    text-align: center;
+    padding: 10px;sss
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #065ea5;
+}
+#datos{
+    width:80% ;
+    background-color: #dde4e7a8;
+    height: 600px;
+    margin: auto;
+    opacity: 1;
+    color: #084bc7;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    } 
+iframe {
+    flex: 1;
+    margin-right: 20px; 
+}
+img {
+    max-width: 300px; 
+    height: auto; 
+}
